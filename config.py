@@ -20,8 +20,8 @@ epochs = 100
 # Specifies the batch size of 64 images, meaning each iteration of training will process 64 images at once.
 batch_size = 64
 learning_rate = 0.001
-imagenet_data_dir_train = "./ImageNet-Mini/"
-imagenet_data_dir_test = "./ImageNet-Mini/"
+imagenet_data_dir_train = "./ImageNet-Mini/train"
+imagenet_data_dir_test = "./ImageNet-Mini/test"
 validation_split = 0.2
 shuffle = True  # DataLoader.shuffle
 # Sets the number of CPU cores for loading data, speeding up data loading by using multiple parallel workers.
